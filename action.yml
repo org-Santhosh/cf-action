@@ -23,3 +23,7 @@ inputs:
     description: Whether or not to validate the CF API's TLS certificate
     required: false
     default: true
+
+runs:
+  using: docker
+  image: Dockerfile
